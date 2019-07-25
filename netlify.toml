@@ -1,0 +1,4 @@
+[build]
+base = "find-a-book/"
+publish = "find-a-book/build/"
+command = "yarn build"

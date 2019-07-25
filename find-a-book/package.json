@@ -1,5 +1,5 @@
 {
-  "homepage": "https://wesmcc03.github.io/find-a-book/",
+  "homepage": "http://WesMcc03.github.io/find-a-book/",
   "name": "find-a-book",
   "version": "0.1.0",
   "private": true,
@@ -15,12 +15,12 @@
     "yarn": "^1.17.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

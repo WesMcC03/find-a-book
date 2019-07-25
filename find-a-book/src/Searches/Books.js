@@ -4,7 +4,7 @@ import API from "../utils/API";
 import DeleteBtn from "../components/DeleteBtn";
 import { Col, Row, Container } from "../components/Grid";
 import { BookList, BookListItem } from "../components/BookList";
-import { Input, TextArea, FormBtn } from "../components/Form";
+import { Input, FormBtn } from "../components/Form";
 
 // class Books extends Component {
 //     state = {
@@ -50,7 +50,6 @@ class Books extends Component {
                   <form>
                     <Input name="title" placeholder="Title (required)" />
                     <Input name="author" placeholder="Author (required)" />
-                    <TextArea name="synopsis" placeholder="Synopsis (Optional)" />
                     <FormBtn>Submit Book</FormBtn>
                   </form>
                 </Col>

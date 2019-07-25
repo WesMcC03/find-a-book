@@ -62,11 +62,11 @@ class Books extends Component {
                     <BookList>
                       {this.state.books.map(book => (
                         <BookListItem key={book._id}>
-                          {/* <a href={"/books/" + book._id}>
+                          <a href={"/books/" + book._id}>
                             <strong>
                               {book.title} by {book.author}
                             </strong>
-                          </a> */}
+                          </a>
                           <DeleteBtn />
                         </BookListItem>
                       ))}
